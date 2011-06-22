@@ -1,0 +1,17 @@
+{
+    "name": "cluster-responsetimes"
+  , "version": "0.0.1"
+  , "description": "Plugin for cluster to show response time stats"
+  , "keywords": ["cluster", "latency", "stats", "metrics"]
+  , "author": "Michael Nutt <michael@nuttnet.net>"
+  , "dependencies": {
+      "cluster": "0.6.x"
+    , "metrics": "0.1.x"
+  }
+  , "devDependencies": {
+      "expresso": "0.7.7"
+    , "should" : "0.2.1"
+  }
+  , "main": "index"
+  , "engines": { "node": "0.4.x" }
+}
