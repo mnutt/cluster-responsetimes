@@ -19,7 +19,7 @@
     cluster = cluster(server)
       .use(cluster.stats())
       .use(cluster.repl(3773))
-      .use(responsetimes())
+      .use(responsetimes(cluster))
       .listen(3000);
 
 
